@@ -82,6 +82,9 @@
 //     return e % 2 == 0
 // })); // rangi filter faqat yakum elementi true ra mebrora tamom
 
-//array toSort
-let phone = ["iphone","samsung","nokia","alkatel"]
-let sorted = phone.toSorted()
+// //array toSort
+// let phone = ["iphone","samsung","nokia","alkatel"]
+// let sorted = phone.toSorted()
+
+
+

@@ -474,21 +474,34 @@
 // console.log(findIndex([1,2,3,4],2));
 
 //seyum
-// function removeDuplicates (a){
-//     let nav = a.forEeach((el,ind,arr)=>{
-//        if (el == el){
-//         a.pop()
-//        }
-//     })
-//     return nav
-// }
-// console.log([1, 2, 2, 3, 4, 4]);
+// function removeDuplicates(array) {
+//     return array.filter((element, index) => array.indexOf(element) == index)
+//   }
+//   console.log(removeDuplicates([1, 2, 2, 3, 4, 4, 5]))
 
-let arr = [1, 2, 2, 3, 4, 4];
-console.log(
-  arr.forEach((el, ind, arr) => {
-    if (el == el) {
-        
-    }
-  })
-);
+//chorum
+// function removeNegatives(array) {
+//   return array.filter((element, index) => {
+//     return element > 0;
+//   });
+// }
+// console.log(removeNegatives([1, 2, 3, 4, 5, -6]));
+
+//panjum
+// function calculateAverage(array){
+//    let cnt = array.reduce((acc,currval)=>{
+//     return acc += currval
+//    },0)
+//    return cnt / array.length
+// }
+// console.log(calculateAverage([2, 4, 6, 8, 10]));
+
+//shashum
+// function isPalindromeArray(array) {
+//     const reversedArray = [...array].reverse();
+//     return array.every((elem, index) => {
+//         return elem == reversedArray[index]
+// });
+//   }
+// console.log(isPalindromeArray([1,2,3,2,1]));
+
